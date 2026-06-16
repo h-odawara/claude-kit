@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Edit(.claude)",
-      "Write(.claude)"
+      "Write(.claude)",
+      "Bash(python *)",
+      "Bash(bash *)"
     ]
   }
 }

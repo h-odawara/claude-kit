@@ -1,6 +1,6 @@
 # Project-specific skills checklist
 
-The skills bundled in `skills/` are generic — they work the same way in any project. They are not enough on their own. When setting up `.claude/` for a project (new or existing), also author project-specific skills for at least the categories below. Use the same SKILL.md shape as the bundled ones (frontmatter `name`/`description`, then steps) — write each as `.claude/skills/<name>/SKILL.md` in the project itself, not here in claude-kit, since the exact commands are project-specific.
+The skills bundled in `.claude/skills/` are generic — they work the same way in any project. They are not enough on their own. When setting up `.claude/` for a project (new or existing), also author project-specific skills for at least the categories below. Use the same SKILL.md shape as the bundled ones (frontmatter `name`/`description`, then steps) — write each as `.claude/skills/<name>/SKILL.md` in the project itself, not here in claude-kit, since the exact commands are project-specific.
 
 ## Categories to cover
 

@@ -24,7 +24,7 @@ if (-not (Test-Path $claudeDir)) {
 }
 
 if (-not (Test-Path (Join-Path $claudeDir "hooks\$hookFileName"))) {
-    Write-Warning "$hookFileName not found under $claudeDir\hooks - copy it from this kit's hooks/ first."
+    Write-Warning "$hookFileName not found under $claudeDir\hooks - copy it from this kit's .claude/hooks/ first."
 }
 
 $template = Get-Content -Path $templatePath -Raw | ConvertFrom-Json
